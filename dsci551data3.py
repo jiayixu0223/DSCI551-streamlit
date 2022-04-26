@@ -20,3 +20,5 @@ df1.columns = cols
 #st.dataframe(data=None, width=None, height=None)
 st.title('Job List Data')
 st.dataframe(df1)
+url2 = 'https://empowerusc.netlify.app/application.html'
+st.write("Link to apply [link](%s)" % url2)
